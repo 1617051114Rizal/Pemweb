@@ -1,0 +1,220 @@
+body {
+    background: url('avengers.jpg');
+    color: #fff;
+    background-size: cover;
+}
+
+#image {
+  margin-left : 325px;
+}
+
+#image1 {
+  margin-left : 55px;
+}
+
+#image2 {
+  width : 100%;
+  height : 500px;
+}
+
+#input{
+  text-align : left;
+  padding : 4px 2px;
+  border-radius : 5px;
+  width : 300;
+}
+
+#form1 {
+  width : 500px;
+  height : 265px;
+  margin: 25px auto;
+  border-radius: 5px;
+  padding: 7px 2px;
+  background-color: #a9a9a9;
+}
+
+#form3 {
+  height : 280px;
+  background-color: #a9a9a9;
+  width : 700px;
+  margin: 0 auto;
+}
+
+#form4 {
+  height : 500px;
+  background-color: #a9a9a9;
+  width : 700px;
+  margin: 0 auto;
+}
+
+#form2 {
+  width : 500px;
+  height : 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  padding: 7px 2px;
+  background-color: #a9a9a9;
+}
+
+#form5 {
+  height : 500px;
+  background-color: #a9a9a9;
+  width : 1250px;
+  margin: 0 auto;
+}
+
+#form6 {
+  width : 500px;
+  height : 680px;
+  margin: 25px auto;
+  border-radius: 5px;
+  padding: 7px 2px;
+  background-color: #a9a9a9;
+}
+
+#beli {
+  display: block;
+  color : #fff;
+  text-decoration: none;
+  padding: 7px 2px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(100, 96, 104);
+  background: rgb(100, 96, 104);
+  width:100px;
+  margin-left: 15px;
+}
+
+.beli1 {
+  display: block;
+  color : #fff;
+  text-decoration: none;
+  padding: 7px 2px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(100, 96, 104);
+  background: rgb(100, 96, 104);
+  width:180px;
+  margin: 15px auto;
+}
+
+.beli {
+  display: block;
+  color : #fff;
+  text-decoration: none;
+  padding: 7px 2px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(100, 96, 104);
+  background: rgb(100, 96, 104);
+  width:100px;
+  margin-left: 15px;
+}
+
+
+ul.topnav {
+    width : 700px;
+    border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+    list-style-type: none;
+    margin: 1px auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(100, 96, 104);
+}
+
+ul.topnave {
+  width : 1250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  list-style-type: none;
+  margin: 1px auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(100, 96, 104);
+}
+
+
+ul.topnav li {float: left;}
+
+ul.topnave li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnave li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnave li a:hover {background-color: #111;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+ul.topnave li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnav.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }
+
+@media screen and (max-width:680px) {
+    ul.topnave li:not(:first-child) {display: none;}
+    ul.topnave li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width:680px) {
+    ul.topnave.responsive {position: relative;}
+    ul.topnave.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnave.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnave.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }
